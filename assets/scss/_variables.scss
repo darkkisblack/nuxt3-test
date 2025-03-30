@@ -1,0 +1,38 @@
+@use 'sass:color';
+
+// Colors
+// Main colors
+$color-black: #101010;
+$color-dark: #232323;
+$color-gray: #868686;
+$color-light: #F3F3F3;
+$color-white: #FFFFFF;
+
+// Accent colors
+$color-green: #9EFFBF;
+$color-purple: #7941A7;
+$color-purple-light: #E2BEFF;
+$color-blue: #1059C8;
+$color-red: #FF0000;
+
+// Semantic colors
+$primary-color: $color-black;
+$text-color: $color-black;
+$background-color: $color-white;
+
+// System colors
+$color-error: red;
+
+// Layout
+$container-width: 1200px;
+
+// Breakpoints
+$breakpoint-desktop: 1024px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 480px;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;

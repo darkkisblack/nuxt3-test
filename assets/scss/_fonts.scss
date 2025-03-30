@@ -1,0 +1,33 @@
+@use 'variables' as *;
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('@/assets/fonts/TTCommons-Regular.woff2') format('woff2');
+  font-weight: $font-weight-regular;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('@/assets/fonts/TTCommons-Medium.woff2') format('woff2');
+  font-weight: $font-weight-medium;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('@/assets/fonts/TTCommons-DemiBold.woff2') format('woff2');
+  font-weight: $font-weight-semibold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('@/assets/fonts/TTCommons-Bold.woff2') format('woff2');
+  font-weight: $font-weight-bold;
+  font-style: normal;
+  font-display: swap;
+}
